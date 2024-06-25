@@ -779,6 +779,10 @@ video {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
+.py-3{
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -786,10 +790,6 @@ video {
 .py-\[16px\]{
   padding-top: 16px;
   padding-bottom: 16px;
-}
-.py-3{
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 .pl-3{
   padding-left: 0.75rem;
@@ -871,7 +871,7 @@ video {
 }
 .text-primary-blue{
   --tw-text-opacity: 1;
-  color: rgb(59 105 2 / var(--tw-text-opacity));
+  color: rgb(43 89 255 / var(--tw-text-opacity));
 }
 .text-teal-600{
   --tw-text-opacity: 1;
