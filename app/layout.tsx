@@ -3,7 +3,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Car Hup',
+    title: 'Nyumba365',
     description: 'Find, book, rent a car—quick and super easy!',
 };
 

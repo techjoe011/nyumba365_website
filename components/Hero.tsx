@@ -1,6 +1,8 @@
 'use client';
 
 import Image from 'next/image';
+
+import Link from 'next/link';
 import { CustomButton } from './';
 
 const Hero = () => {
@@ -16,17 +18,21 @@ const Hero = () => {
         <div className="hero">
             <div className="flex-1 pt-36 padding-x">
                 <h1 className="hero__title">
-                    Find, book, rent a car—quick and super easy!
+                Discover. Decide. Move In.
                 </h1>
                 <p className="hero__subtitle">
-                    Streamline your car rental experience with our effortless
-                    booking process.
+                Your all-in-one solution: Find, view, and move into your new home.
                 </p>
-                <CustomButton
-                    title="Explore Cars"
-                    containerStyles="bg-primary-blue text-white rounded-full mt-10 "
-                    handleClick={handleScroll}
-                />
+                
+
+<Link
+                    href="/your-app-url"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-primary-blue text-white rounded-full mt-10 px-6 py-3 inline-block"
+                >
+                    Get Started
+                </Link>
             </div>
             <div className="hero__image-container">
                 <div className="hero__image">
